@@ -7,7 +7,7 @@ public class Position {
 	private double maxX;
 	private double maxY;
 	
-	private Position[][] position;
+	
 	
 	
 	public Position(double x, double y, double maxX, double maxY) {
@@ -18,7 +18,7 @@ public class Position {
 	}
 	
 	public Position(Position position) {
-		this.Position;
+	
 	}
 	
 

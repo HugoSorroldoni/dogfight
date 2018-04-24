@@ -22,6 +22,7 @@ public class Missile extends Mobile {
 		/*
 		 * 
 		 */
+	
 	}
 	
 	public static int getWidthWithADirection(Direction direction) {
