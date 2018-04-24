@@ -26,6 +26,5 @@ public class DogfightController {
 	public UserOrder orderPerform() {
 		return new UserOrder();
 		
-		
 	}
 }
