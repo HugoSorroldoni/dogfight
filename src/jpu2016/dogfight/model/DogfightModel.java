@@ -1,7 +1,7 @@
 package jpu2016.dogfight.model;
 import java.util.ArrayList;
 
-public class DogfightModel {
+public class DogfightModel implements IDogfightModel{
 	
 	public DogfightModel() {
 		/*
