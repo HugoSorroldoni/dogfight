@@ -19,4 +19,5 @@ public class GraphicsBuilder {
 	private void drawMobile(Dogfight Model.jpu2016.dogfight.model.IMobile mobile, Graphics graphics, ImageObserver observer) {
 		
 	}
+	
 }
