@@ -1,6 +1,11 @@
 package jpu2016.dogfight.model;
 
-public class Missile {
+public class Missile extends Mobile {
+
+	public Missile(Direction direction, Position position, Dimension dimension, int speed, String Image) {
+		super(direction, position, dimension, speed, Image);
+	
+	}
 
 	private static int SPEED = 4;
 	private static int WIDTH = 30;

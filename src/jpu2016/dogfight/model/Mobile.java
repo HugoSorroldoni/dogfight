@@ -9,9 +9,7 @@ public class Mobile {
 	private int speed;
 	
 	public Mobile(Direction direction, Position position, Dimension dimension, int speed, String Image) {
-		/*
-		 * 
-		 */	
+		Plane plane = new Plane(speed, direction, position, Image);
 	}
 	
 	public Direction getDirection() {

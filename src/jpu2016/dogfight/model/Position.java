@@ -25,7 +25,7 @@ public class Position {
 	}
 	
 	public void setX(double x) {
-		x = this.x;
+		x = this.x % maxX;
 	}
 	
 	public double getY() {
@@ -34,7 +34,7 @@ public class Position {
 	}
 	
 	public void setY(double y) {
-		y = this.y;
+		y = this.y % maxY;
 	}
 	
 	protected void setMaxX(double maxX) {

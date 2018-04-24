@@ -1,7 +1,11 @@
 package jpu2016.dogfight.model;
 
-public class Cloud {
+public class Cloud extends Mobile{
 
+	public Cloud(Direction direction, Position position, Dimension dimension, int speed, String Image) {
+		super(direction, position, dimension, speed, Image);
+		
+	}
 	private static int SPEED = 1;
 	private static int WIDTH = 300;
 	private static int HEIGHT = 150;
@@ -10,9 +14,7 @@ public class Cloud {
 	
 	public Cloud(Direction direction, Dimension dimension) {
 		
-		/*
-		 * 
-		 */
+		super(direction, dimension);
 	}
 	
 	

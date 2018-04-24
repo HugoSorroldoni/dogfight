@@ -1,6 +1,11 @@
 package jpu2016.dogfight.model;
 
-public class Plane {
+public class Plane extends Mobile{
+
+	public Plane(Direction direction, Position position, Dimension dimension, int speed, String Image) {
+		super(direction, position, dimension, speed, Image);
+		
+	}
 
 	private static int SPEED = 2;
 	private static int WIDTH = 100;
