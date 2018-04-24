@@ -1,5 +1,7 @@
 package jpu2016.dogfight.model;
 
+import java.awt.Point;
+
 public class Position {
 
 	private double x;
@@ -18,6 +20,8 @@ public class Position {
 	}
 	
 	public Position(Position position) {
+		Mobile.setPosition(position);
+		
 	
 	}
 	
@@ -47,6 +51,8 @@ public class Position {
 		
 		maxY = this.maxY;
 	}
+
+	
 	
 	
 	

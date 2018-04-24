@@ -3,17 +3,31 @@ package jpu2016.dogfight.model;
 import java.awt.Color;
 import java.awt.Image;
 import java.awt.Point;
+import jpu2016.dogfight.model.*;
 
 public class Mobile {
 
 	private int speed;
+	private Point position;
+	private Position position1;
 	
-	public Mobile(Direction direction, Position position, Dimension dimension, int speed, String Image) {
-		Plane plane = new Plane(speed, direction, position, Image);
+	
+	public Mobile() {
+		
 	}
 	
+	public Mobile(Direction direction, Position position, Dimension dimension, int speed, String image) {
+		this.setDirection(direction);
+		this.setSpeed(speed);
+		this.position = new Point();
+		
+	}
+	
+	
+	
+	
+	
 	public Direction getDirection() {
-		/* a modif */
 		return null;
 	}
 	
@@ -24,13 +38,19 @@ public class Mobile {
 	}
 	
 	public Point getPosition() {
-		return null;
-		/* a modif */
+		return this.position;
 	}
+	
+	public Position getPosition1() {
+		return this.position1;
+	}
+	
+	
+	
 	
 	public Dimension getDimension() {
 		return null;
-		/* a modif */
+		
 	}
 	
 	public int getSpeed() {
@@ -52,9 +72,7 @@ public class Mobile {
 	}
 	
 	public void placeInArea(IArea area) {
-		/*
-		 * 
-		 */
+		Position.Position(position);
 	}
 	
 	public boolean isPlayer(int player) {
@@ -62,9 +80,7 @@ public class Mobile {
 	}
 	
 	private void moveUp() {
-		/*
-		 * 
-		 */
+		this.setPosition(this.getPosition() - 1)
 	}
 	
 	private void moveRight() {
@@ -121,6 +137,10 @@ public class Mobile {
 	public int getSpedd() {
 		return 1;
 	}
+
+
+
+	
 	
 	
 }
