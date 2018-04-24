@@ -1,9 +1,8 @@
 package jpu2016.dogfight.view;
 
-import java.awt.Graphics;
-import java.awt.image.ImageObserver;
-
-import jpu2016_dogfight.model.IDogfightModel;
+import java.awt.image.BufferedImage;
+import jpu2016.dogfight.model.IDogfightModel;
+import jpu2016.gameframe.IGraphicsBuilder;
 
 public class GraphicsBuilder {
 
@@ -16,7 +15,7 @@ public class GraphicsBuilder {
 	private void buildEmptySky() {
 		
 	}
-	private void drawMobile(Dogfight Model.jpu2016.dogfight.model.IMobile mobile, Graphics graphics, ImageObserver observer) {
+	private void drawMobile(jpu2016.dogfight.model.IMobile mobile, Graphics graphics, ImageObserver observer) {
 		
 	}
 	

@@ -1,12 +1,14 @@
 package jpu2016.gameframe;
+
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
-import java.util.Observable;
+import javax.swing.JFrame;
+import jpu2016.gameframe.IEventPerformer;
+import jpu2016.gameframe.GamePanel;
 
-import javax.swing.JFrame; 
 
 public class GameFrame {
-	public GameFrame(String title, View.jpu2016.gameframe.IEventPerformer performer, View.jpu2016.gameframe.IGraphicsBuilder graphicBuilder, Observable observable) {
+	public GameFrame(String title, jpu2016.gameframe.IEventPerformer performer, jpu2016.gameframe.IGraphicsBuilder graphicBuilder, Observable observable) {
 		
 	}
 	

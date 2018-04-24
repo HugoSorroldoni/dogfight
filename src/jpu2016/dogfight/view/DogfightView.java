@@ -1,9 +1,10 @@
 package jpu2016.dogfight.view;
 
-import java.util.Observable;
-
-import jpu2016.dogfight.controller.IOrderPerformer;
-import jpu2016_dogfight.model.IDogfightModel;
+import java.lang.Runnable;
+import jpu2016.dogfight.view.EventPerformer;
+import jpu2016.dogfight.view.IViewSystem;
+import jpu2016.gameframe.GameFrame;
+import jpu2016.dogfight.view.GraphicsBuilder;
 
 public class DogfightView {
 	
