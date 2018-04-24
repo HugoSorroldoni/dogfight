@@ -1,5 +1,5 @@
 
-package jpu2016_dogfight.model;
+package jpu2016.dogfight.model;
 
 public interface IArea {
 
