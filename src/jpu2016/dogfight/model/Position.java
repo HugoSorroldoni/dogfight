@@ -7,19 +7,21 @@ public class Position {
 	private double maxX;
 	private double maxY;
 	
+	private Position[][] position;
+	
 	
 	public Position(double x, double y, double maxX, double maxY) {
-		/*
-		 * 
-		 */
+		this.setX(x);
+		this.setY(y);
+		this.setMaxX(maxX);
+		this.setMaxY(maxY);
 	}
 	
 	public Position(Position position) {
-		/*
-		 * 
-		 */
+		this.Position;
 	}
 	
+
 	public double getX() {
 		return this.x;
 	}
