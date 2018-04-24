@@ -22,13 +22,15 @@ public class Dimension {
 	}
 	
 	public void setWidth(int width) {
-		/*
-		 * 
-		 */
+		width = this.width;
 	}
 	
 	public int getHeight() {
 		return this.height;
+	}
+	
+	public void setHeight(int height) {
+		height = this.height;
 	}
 	
 	
