@@ -13,10 +13,12 @@ public interface IMobile {
 	public int getHeight();
 	public int getSpeed();
 	public Image getImage();
+	public void move();
+	public void placeInArea(IArea area);
+	public boolean isPlayer(int player);
+	public void setDogfightModel(DogfightModel dogfightModel);
+	public boolean hit();
+	public boolean isWeapon();
 	
-	
-	
-	
-	
-	
+
 }
